@@ -68,6 +68,7 @@ function AddmoneyButton() {
         color="warning"
         sx={{ mr: 1 }}
         onClick={handleOpen}
+        size='large'
       >
         Add Money
       </Button>
@@ -122,6 +123,7 @@ function AddmoneyButton() {
                 variant="outlined"
                 sx={{ width: "50%", mr: 0.56 }}
                 onClick={handleClose}
+                size="large"
               >
                 End Task
               </Button>
@@ -129,6 +131,7 @@ function AddmoneyButton() {
                 variant="contained"
                 sx={{ width: "50%", ml: 0.5 }}
                 onClick={handleRefill}
+                size="large"
               >
                 Submit
               </Button>

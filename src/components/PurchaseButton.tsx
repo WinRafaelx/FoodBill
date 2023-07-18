@@ -58,7 +58,7 @@ function PurchaseButton() {
   };
   return (
     <>
-      <Button variant="contained" onClick={handleOpen}>
+      <Button variant="contained" color="error" onClick={handleOpen} size="large">
         Purchase
       </Button>
       <Modal open={open} onClose={handleClose}>
@@ -102,6 +102,7 @@ function PurchaseButton() {
                 variant="outlined"
                 sx={{ width: "50%", mr: 0.56 }}
                 onClick={handleClose}
+                size="large"
               >
                 End Task
               </Button>
@@ -109,6 +110,7 @@ function PurchaseButton() {
                 variant="contained"
                 sx={{ width: "50%", ml: 0.5 }}
                 onClick={handlePurchase}
+                size="large"
               >
                 Submit
               </Button>

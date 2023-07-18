@@ -2,9 +2,9 @@ import { Box } from "@mui/material";
 import Balance from "./components/Balance";
 import PurchaseButton from "./components/PurchaseButton";
 import AddmoneyButton from "./components/AddmoneyButton";
+import History from "./components/History";
 
 function App() {
-  
   return (
     <>
       <Box
@@ -17,10 +17,12 @@ function App() {
         }}
       >
         <Balance />
-        
         <Box>
-          <AddmoneyButton />
-          <PurchaseButton />
+          <Box sx={{ mb: 2 }}>
+            <AddmoneyButton />
+            <PurchaseButton />
+          </Box>
+          <History />
         </Box>
       </Box>
     </>
