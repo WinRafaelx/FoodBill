@@ -136,6 +136,7 @@ function History() {
                     p: 1,
                     borderRadius: "5px",
                   }}
+                  key={item.id}
                 >
                   <Box
                     sx={{
@@ -172,6 +173,7 @@ function History() {
                   p: 1,
                   borderRadius: "5px",
                 }}
+                key={item.id}
               >
                 <Box
                   sx={{

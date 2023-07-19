@@ -21,7 +21,7 @@ function Balance() {
   
   return (
     <>
-      <Typography variant="h1">{Balance}</Typography>
+      <Typography variant="h1" sx={{mb:2}}>{Balance}</Typography>
     </>
   );
 }

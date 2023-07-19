@@ -103,6 +103,7 @@ function PurchaseButton() {
                 sx={{ width: "50%", mr: 0.56 }}
                 onClick={handleClose}
                 size="large"
+                color="error"
               >
                 End Task
               </Button>
@@ -111,6 +112,7 @@ function PurchaseButton() {
                 sx={{ width: "50%", ml: 0.5 }}
                 onClick={handlePurchase}
                 size="large"
+                color="error"
               >
                 Submit
               </Button>
