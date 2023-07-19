@@ -6,7 +6,7 @@ import {
   doc,
   collection,
   orderBy,
-  onSnapshot, 
+  onSnapshot,
 } from "firebase/firestore";
 
 function Balance() {
